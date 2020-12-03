@@ -27,11 +27,11 @@ public class MainActivity extends AppCompatActivity {
     public void ButtonOn(View view)
     {
         ImageFoco.setBackgroundResource(R.drawable.buttonon);
-        Toast.makeText(MainActivity.this, "on", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(MainActivity.this, "on", Toast.LENGTH_SHORT).show();
     }
     public void ButtonOff(View view)
     {
         ImageFoco.setBackgroundResource(R.drawable.buttonoff);
-        Toast.makeText(MainActivity.this, "off", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(MainActivity.this, "off", Toast.LENGTH_SHORT).show();
     }
 }
